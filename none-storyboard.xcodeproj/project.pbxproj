@@ -28,6 +28,7 @@
 		08DD34CC2B88DE1F0058918A /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DD34CB2B88DE1F0058918A /* GFAvatarImageView.swift */; };
 		08DD34CE2B891F9C0058918A /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DD34CD2B891F9C0058918A /* UIHelper.swift */; };
 		08EC99252B8CE3190082BEF5 /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EC99242B8CE3190082BEF5 /* GFEmptyStateView.swift */; };
+		08EC99272B8CF91E0082BEF5 /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EC99262B8CF91E0082BEF5 /* UserInfoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		08DD34CB2B88DE1F0058918A /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		08DD34CD2B891F9C0058918A /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		08EC99242B8CE3190082BEF5 /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
+		08EC99262B8CF91E0082BEF5 /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				08DD34A72B87C4020058918A /* SearchVC.swift */,
 				08DD34AF2B888D720058918A /* FollowerListVC.swift */,
 				08DD34A92B87C42F0058918A /* FavoritesListVC.swift */,
+				08EC99262B8CF91E0082BEF5 /* UserInfoVC.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				08DD34B02B888D720058918A /* FollowerListVC.swift in Sources */,
 				08DD34942B87C2290058918A /* AppDelegate.swift in Sources */,
 				08DD34962B87C2290058918A /* SceneDelegate.swift in Sources */,
+				08EC99272B8CF91E0082BEF5 /* UserInfoVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
