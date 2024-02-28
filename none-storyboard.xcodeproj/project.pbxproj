@@ -37,10 +37,10 @@
 		08EC99342B8E07410082BEF5 /* GFRepoItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EC99332B8E07410082BEF5 /* GFRepoItemVC.swift */; };
 		08EC99362B8E096B0082BEF5 /* GFFollowerItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EC99352B8E096B0082BEF5 /* GFFollowerItemVC.swift */; };
 		08EC99392B8E0D290082BEF5 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EC99382B8E0D290082BEF5 /* Date+Ext.swift */; };
-		08EC993B2B8E0D620082BEF5 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EC993A2B8E0D620082BEF5 /* String+Ext.swift */; };
 		08EC993D2B8E36800082BEF5 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EC993C2B8E36800082BEF5 /* PersistenceManager.swift */; };
 		08EC993F2B8F3C1C0082BEF5 /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EC993E2B8F3C1C0082BEF5 /* FavoriteCell.swift */; };
 		08EC99422B8F54BD0082BEF5 /* GFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EC99412B8F54BD0082BEF5 /* GFTabBarController.swift */; };
+		08EC99442B8F78610082BEF5 /* GFAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EC99432B8F78610082BEF5 /* GFAlertContainerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,10 +76,10 @@
 		08EC99332B8E07410082BEF5 /* GFRepoItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFRepoItemVC.swift; sourceTree = "<group>"; };
 		08EC99352B8E096B0082BEF5 /* GFFollowerItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFFollowerItemVC.swift; sourceTree = "<group>"; };
 		08EC99382B8E0D290082BEF5 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
-		08EC993A2B8E0D620082BEF5 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		08EC993C2B8E36800082BEF5 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 		08EC993E2B8F3C1C0082BEF5 /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 		08EC99412B8F54BD0082BEF5 /* GFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTabBarController.swift; sourceTree = "<group>"; };
+		08EC99432B8F78610082BEF5 /* GFAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertContainerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,7 +155,6 @@
 			children = (
 				08DD34B72B889F180058918A /* UIVC+Ext.swift */,
 				08EC99382B8E0D290082BEF5 /* Date+Ext.swift */,
-				08EC993A2B8E0D620082BEF5 /* String+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -213,6 +212,7 @@
 			children = (
 				08EC99242B8CE3190082BEF5 /* GFEmptyStateView.swift */,
 				08EC992E2B8DFF9A0082BEF5 /* GFItemInfoView.swift */,
+				08EC99432B8F78610082BEF5 /* GFAlertContainerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -352,7 +352,6 @@
 				08DD34C12B88C3B80058918A /* User.swift in Sources */,
 				08DD34AE2B87CB890058918A /* GFTextField.swift in Sources */,
 				08DD34AA2B87C42F0058918A /* FavoritesListVC.swift in Sources */,
-				08EC993B2B8E0D620082BEF5 /* String+Ext.swift in Sources */,
 				08DD34AC2B87CA0C0058918A /* GFButton.swift in Sources */,
 				08DD34A82B87C4020058918A /* SearchVC.swift in Sources */,
 				08DD34CE2B891F9C0058918A /* UIHelper.swift in Sources */,
@@ -370,6 +369,7 @@
 				08DD34B82B889F180058918A /* UIVC+Ext.swift in Sources */,
 				08DD34BF2B88C3240058918A /* Follower.swift in Sources */,
 				08DD34B22B8893800058918A /* GFTitleLabel.swift in Sources */,
+				08EC99442B8F78610082BEF5 /* GFAlertContainerView.swift in Sources */,
 				08EC99252B8CE3190082BEF5 /* GFEmptyStateView.swift in Sources */,
 				08EC99392B8E0D290082BEF5 /* Date+Ext.swift in Sources */,
 				08EC993D2B8E36800082BEF5 /* PersistenceManager.swift in Sources */,
