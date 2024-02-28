@@ -10,11 +10,11 @@ import UIKit
 class GFUserInfoHeaderVC: UIViewController {
 
         
-    let avatarImagView    = GFAvatarImageView(frame: .zero)
-    let usernameLabel    = GFTitleLabel(textAlignment: .left, fontSize: 34)
+    let avatarImageView   = GFAvatarImageView(frame: .zero)
+    let usernameLabel     = GFTitleLabel(textAlignment: .left, fontSize: 34)
     let nameLabel         = GFSecondaryTitleLabel(fontSize: 18)
     let locationImageView = UIImageView()
-    let locationLabel      = GFSecondaryTitleLabel(fontSize: 18)
+    let locationLabel     = GFSecondaryTitleLabel(fontSize: 18)
     let bioLabel          = GFBodyLabel(textAlignment: .left)
     
     var user: User!
@@ -33,9 +33,9 @@ class GFUserInfoHeaderVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        addSunView()
+        addSubViews()
         layoutUI()
-       configureUIElements()
+        configureUIElements()
     }
     
     
@@ -53,8 +53,8 @@ class GFUserInfoHeaderVC: UIViewController {
     }
     
 
-    func addSunView() {
-        view.addSubview(avatarImagView)
+    func addSubViews() {
+        view.addSubview(avatarImageView)
         view.addSubview(usernameLabel)
         view.addSubview(nameLabel)
         view.addSubview(locationImageView)

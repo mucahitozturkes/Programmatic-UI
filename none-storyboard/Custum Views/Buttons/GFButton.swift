@@ -21,11 +21,10 @@ class GFButton: UIButton {
     }
     
     
-    init(backgroundColor: UIColor, title: String) {
-        super.init(frame: .zero)
-            self.backgroundColor = backgroundColor
-            self.setTitle(title, for: .normal)
-        configure()
+    convenience init(backgroundColor: UIColor, title: String) {
+        self.init(frame: .zero)
+        self.backgroundColor = backgroundColor
+        self.setTitle(title, for: .normal)
     }
     
     
@@ -42,8 +41,4 @@ class GFButton: UIButton {
         self.backgroundColor = backgroundColor
         setTitle(title, for: .normal)
     }
-}
-
-#Preview {
-    GFButton.init(backgroundColor: .systemPink, title: "Helo")
 }
