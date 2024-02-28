@@ -40,7 +40,7 @@ class GFUserInfoHeaderVC: UIViewController {
     
     
     func configureUIElements() {
-        avatarImagView.downloadImage(from: user.avatarUrl)
+        avatarImageView.downloadImage(from: user.avatarUrl)
         usernameLabel.text          = user.login
         nameLabel.text              = user.name ?? ""
         locationLabel.text          = user.location ?? "No Location"
@@ -70,23 +70,23 @@ class GFUserInfoHeaderVC: UIViewController {
         locationImageView.translatesAutoresizingMaskIntoConstraints = false
         
         NSLayoutConstraint.activate([
-            avatarImagView.topAnchor.constraint(equalTo: view.topAnchor, constant: padding),
-            avatarImagView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-            avatarImagView.widthAnchor.constraint(equalToConstant: 90),
-            avatarImagView.heightAnchor.constraint(equalToConstant: 90),
+            avatarImageView.topAnchor.constraint(equalTo: view.topAnchor, constant: padding),
+            avatarImageView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            avatarImageView.widthAnchor.constraint(equalToConstant: 90),
+            avatarImageView.heightAnchor.constraint(equalToConstant: 90),
             
-            usernameLabel.topAnchor.constraint(equalTo: avatarImagView.topAnchor),
-            usernameLabel.leadingAnchor.constraint(equalTo: avatarImagView.trailingAnchor, constant: textImagePadding),
+            usernameLabel.topAnchor.constraint(equalTo: avatarImageView.topAnchor),
+            usernameLabel.leadingAnchor.constraint(equalTo: avatarImageView.trailingAnchor, constant: textImagePadding),
             usernameLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             usernameLabel.heightAnchor.constraint(equalToConstant: 38),
             
-            nameLabel.centerYAnchor.constraint(equalTo: avatarImagView.centerYAnchor, constant: 8),
-            nameLabel.leadingAnchor.constraint(equalTo: avatarImagView.trailingAnchor, constant: textImagePadding),
+            nameLabel.centerYAnchor.constraint(equalTo: avatarImageView.centerYAnchor, constant: 8),
+            nameLabel.leadingAnchor.constraint(equalTo: avatarImageView.trailingAnchor, constant: textImagePadding),
             nameLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             nameLabel.heightAnchor.constraint(equalToConstant: 20),
             
-            locationImageView.bottomAnchor.constraint(equalTo: avatarImagView.bottomAnchor),
-            locationImageView.leadingAnchor.constraint(equalTo: avatarImagView.trailingAnchor, constant: textImagePadding),
+            locationImageView.bottomAnchor.constraint(equalTo: avatarImageView.bottomAnchor),
+            locationImageView.leadingAnchor.constraint(equalTo: avatarImageView.trailingAnchor, constant: textImagePadding),
             locationImageView.widthAnchor.constraint(equalToConstant: 20),
             locationImageView.heightAnchor.constraint(equalToConstant: 20),
             
@@ -95,8 +95,8 @@ class GFUserInfoHeaderVC: UIViewController {
             locationLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             locationLabel.heightAnchor.constraint(equalToConstant: 20),
             
-            bioLabel.topAnchor.constraint(equalTo: avatarImagView.bottomAnchor, constant: textImagePadding),
-            bioLabel.leadingAnchor.constraint(equalTo: avatarImagView.leadingAnchor),
+            bioLabel.topAnchor.constraint(equalTo: avatarImageView.bottomAnchor, constant: textImagePadding),
+            bioLabel.leadingAnchor.constraint(equalTo: avatarImageView.leadingAnchor),
             bioLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             bioLabel.heightAnchor.constraint(equalToConstant: 60)
             
