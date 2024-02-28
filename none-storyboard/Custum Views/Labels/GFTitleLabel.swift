@@ -36,4 +36,4 @@ class GFTitleLabel: UILabel {
     }
 }
 
-//#Preview { GFTitleLabel.init(textAlignment: .center, fontSize: 20) }
+

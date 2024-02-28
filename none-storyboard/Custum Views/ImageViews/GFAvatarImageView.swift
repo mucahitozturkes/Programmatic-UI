@@ -56,4 +56,4 @@ class GFAvatarImageView: UIImageView {
     }
 }
 
-#Preview { GFAvatarImageView.init(frame: .zero) }
+
